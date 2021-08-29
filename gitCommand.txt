@@ -1,0 +1,1820 @@
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
+$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
+$ git version
+git version 2.26.0.windows.1
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
+$ git repo
+git: 'repo' is not a git command. See 'git --help'.
+
+The most similar commands are
+        grep
+        reflog
+        remote
+        repack
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
+$ git create repo policebharti
+git: 'create' is not a git command. See 'git --help'.
+
+The most similar command is
+        reset
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
+$ git init
+Initialized empty Git repository in C:/wamp/www/poilcebharti/.git/
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git add .
+warning: LF will be replaced by CRLF in admin/css/animate.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/less/fonts.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/less/forms.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/less/global.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/less/responsive.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/less/variable.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/less/widget-stat.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/bootstrap/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/calendar/fullcalendar.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/calendar2/semantic.ui.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/data-table/buttons.bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/data-table/buttons.dataTables.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/data-table/dataTables.bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/datepicker/bootstrap-datepicker3.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/html5-editor/bootstrap-wysihtml5.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/jsgrid/jsgrid-theme.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/jsgrid/jsgrid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/line-progress/jquery.lineProgressbar.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/metismenu/menu.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/owl.carousel.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/owl.theme.default.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/preloader/pace.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/rangSlider/ion.rangeSlider.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/rangSlider/ion.rangeSlider.skinFlat.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/rangSlider/ion.rangeSlider.skinHTML5.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/rangSlider/ion.rangeSlider.skinModern.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/rangSlider/ion.rangeSlider.skinNice.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/rangSlider/ion.rangeSlider.skinSimple.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/rangSlider/normalize.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/scrollable/scrollable.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/select2/select2.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/lib/vector-map/jqvmap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/spinners.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/fileUplaod/uploadFile.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ad.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ae.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/af.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ag.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ai.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/al.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/am.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ao.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/aq.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ar.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/as.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/at.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/au.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/aw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ax.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/az.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ba.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bb.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bd.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/be.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bh.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bi.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bj.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bl.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bq.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/br.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bs.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bv.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/by.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/bz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ca.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cc.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cd.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ch.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ci.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ck.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cl.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/co.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cu.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cv.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cx.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cy.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/cz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/de.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/dj.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/dk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/dm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/do.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/dz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ec.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ee.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/eg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/eh.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/er.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/es.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/et.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/fi.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/fj.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/fk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/fm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/fo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/fr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ga.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gb.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gd.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ge.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gh.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gi.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gl.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gp.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gq.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gs.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gu.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/gy.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/hk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/hm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/hn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/hr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ht.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/hu.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/id.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ie.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/il.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/im.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/in.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/io.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/iq.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ir.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/is.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/it.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/je.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/jm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/jo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/jp.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ke.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/kg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/kh.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ki.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/km.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/kn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/kp.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/kr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/kw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ky.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/kz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/la.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/lb.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/lc.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/li.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/lk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/lr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ls.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/lt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/lu.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/lv.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ly.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ma.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mc.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/md.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/me.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mh.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ml.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mp.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mq.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ms.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mu.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mv.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mx.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/my.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/mz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/na.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/nc.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ne.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/nf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ng.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ni.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/nl.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/no.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/np.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/nr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/nu.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/nz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/om.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pa.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pe.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ph.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pl.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ps.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/pw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/py.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/qa.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/re.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ro.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/rs.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ru.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/rw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sa.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sb.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sc.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sd.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/se.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sh.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/si.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sj.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sl.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/so.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ss.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/st.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sv.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sx.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sy.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/sz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tc.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/td.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/th.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tj.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tk.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tl.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/to.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tr.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tv.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/tz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ua.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ug.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/um.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/us.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/uy.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/uz.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/va.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/vc.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ve.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/vg.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/vi.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/vn.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/vu.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/wf.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ws.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/ye.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/yt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/za.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/zm.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/flag-icon-css/flags/zw.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/font-awesome/css/font-awesome.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/font-awesome/fonts/fontawesome-webfont3e6e.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/fonts/linea-arrows-10.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/fonts/linea-basic-10.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/fonts/linea-basic-elaboration-10.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/fonts/linea-ecommerce-10.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/fonts/linea-music-10.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/fonts/linea-software-10.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/fonts/linea-weather-10.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/linea-icons/linea.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/material-design-iconic-font/css/materialdesignicons.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/simple-line-icons/css/simple-line-icons.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/simple-line-icons/fonts/Simple-Line-Icons4c82.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/themify-icons/fonts/themify9f24.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/themify-icons/themify-icons.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/weather-icons/css/weather-icons.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/icons/weather-icons/fonts/weathericons-regular-webfont.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/barRating/jquery.barrating.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/bootstrap/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/bootstrap/js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/bootstrap/js/popper.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/c3/c3-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/c3/c3.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/c3/d3.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/calendar-2/moment.latest.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/calendar-2/pignose.calendar.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/calendar-2/prism.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/calendar-2/semantic.ui.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/calendar/fullcalendar-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/calendar/fullcalendar.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chart-amchart/amcharts.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chart-amchart/amstock.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chart-amchart/export.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chart-amchart/serial.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chart-js/Chart.bundle.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chartist/chartist-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chartist/chartist-plugin-tooltip.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/chartist/chartist.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/circle-progress/circle-progress.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datamap/d3.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datamap/datamaps.world.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datamap/topojson.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdn.rawgit.com/google/code-prettify/master/loader/run_prettify2102.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datatables/datatables.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/datepicker/bootstrap-datepicker.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/echart/dashboard1-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/echart/echarts-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/echart/echarts.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/flot-tooltip/jquery.flot.tooltip.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.categories.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.crosshair.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.pie.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.resize.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.stack.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.threshold.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/flot-chart/jquery.flot.time.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/form-validation/jquery.validate-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/form-validation/jquery.validate.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/gmap/gmaps.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/google-chart/google-charts.init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/google-chart/google-jsapi.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/granim/granim-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/granim/granim.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/highchart/highcharts-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/highchart/highcharts-modules-exporting.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/highchart/highcharts-more.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/highchart/highcharts.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/html5-editor/bootstrap-wysihtml5.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/html5-editor/wysihtml5-0.3.0.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jquery-ui/jquery-ui.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jquery-ui/jquery.ui.touch-punch.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jquery/jquery.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/db.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/fields/jsgrid.field.checkbox.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/fields/jsgrid.field.control.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/fields/jsgrid.field.number.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/fields/jsgrid.field.select.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/fields/jsgrid.field.text.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/fields/jsgrid.field.textarea.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/jsgrid.core.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/jsgrid.field.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/jsgrid.load-indicator.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/jsgrid.load-strategies.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/jsgrid.sort-strategies.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/jsgrid/jsgrid.validation.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/justgage/justgage.init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/justgage/justgage.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/justgage/raphael-min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/line-progress/jquery.lineProgressbar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/menubar/sidebar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/metismenu/jquery.slimscroll.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/metismenu/metismenu.init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/metismenu/metismenu.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/moment/moment.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/morris-chart/morris.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/morris-chart/raphael-min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/nestable/jquery.nestable.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/owl-carousel/owl.carousel.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/peitychart/jquery.peity.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/portlets/portlets.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/preloader/pace.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/rangeSlider/moment-with-locales.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/rangeSlider/moment.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/rating1/jRate.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/rickshaw/d3.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/rickshaw/rickshaw-init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/rickshaw/rickshaw.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/scrollable/holder.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/scrollable/jquery-asScrollable.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/scrollable/jquery-asScrollbar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/select2/select2.full.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/sparklinechart/jquery.sparkline.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/sticky-kit-master/dist/sticky-kit.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/toastr/toastr.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.algeria.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.argentina.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.brazil.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.europe.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.france.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.germany.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.greece.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.iran.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.iraq.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.russia.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.tunisia.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.turkey.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.usa.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/country/jquery.vmap.world.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/jquery.vmap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/vector-map/jquery.vmap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/lib/weather/jquery.simpleWeather.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/js/sidebarmenu.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in admin/uploadFile.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.php.
+The file will have its original line endings in your working directory
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git commit -m "Policebharti API"
+[master (root-commit) 3ae8057] Policebharti API
+ 791 files changed, 153481 insertions(+)
+ create mode 100644 DB.php
+ create mode 100644 admin/AddTestQuestionAnswer.php
+ create mode 100644 admin/AddTestSeriesMaster.php
+ create mode 100644 admin/EditSaravMaster.php
+ create mode 100644 admin/EditSaravQuestion.php
+ create mode 100644 admin/NewBharti.php
+ create mode 100644 admin/NewChaluGhadamodi.php
+ create mode 100644 admin/NewEBook.php
+ create mode 100644 admin/NewImaportantContent.php
+ create mode 100644 admin/NewImportantNotesMaster.php
+ create mode 100644 admin/NewKharediBook.php
+ create mode 100644 admin/NewLiveBatch.php
+ create mode 100644 admin/NewMagilPrashnpatrika.php
+ create mode 100644 admin/NewSaravFileUpload.php
+ create mode 100644 admin/NewSaravFileUpload1.php
+ create mode 100644 admin/NewSaravMaster.php
+ create mode 100644 admin/NewSaravQuestion.php
+ create mode 100644 admin/NewYashogatha.php
+ create mode 100644 admin/Sample.php
+ create mode 100644 admin/SeeBharti.php
+ create mode 100644 admin/SeeBooks.php
+ create mode 100644 admin/SeeChaluGhadamodi.php
+ create mode 100644 admin/SeeEBooks.php
+ create mode 100644 admin/SeeImportantNotesContent.php
+ create mode 100644 admin/SeeImportantNotesMaster.php
+ create mode 100644 admin/SeeLiveBatch.php
+ create mode 100644 admin/SeeMagilPrashnpatrika.php
+ create mode 100644 admin/SeeSaravMaster.php
+ create mode 100644 admin/SeeSaravQuestions.php
+ create mode 100644 admin/SeeSaravQuestionsBySaravMaster.php
+ create mode 100644 admin/SeeYashogatha.php
+ create mode 100644 admin/View_FileUplaod.php
+ create mode 100644 admin/add.php
+ create mode 100644 admin/ajax/ajax_remove_SaravMaster.php
+ create mode 100644 admin/ajax/ajax_remove_SaravQuestion.php
+ create mode 100644 admin/content/addTestQuestionAnswer.php
+ create mode 100644 admin/content/addTestSeriesMaster.php
+ create mode 100644 admin/content/editSaravMaster.php
+ create mode 100644 admin/content/editSaravQuestion.php
+ create mode 100644 admin/content/importfilefromcsv.php
+ create mode 100644 admin/content/newBharti.php
+ create mode 100644 admin/content/newChaluGhadamodi.php
+ create mode 100644 admin/content/newEBook.php
+ create mode 100644 admin/content/newEmptyPHP.php
+ create mode 100644 admin/content/newImaportantContent.php
+ create mode 100644 admin/content/newImportantNotes.php
+ create mode 100644 admin/content/newKharediBook.php
+ create mode 100644 admin/content/newMagilpranpatrika.php
+ create mode 100644 admin/content/newSaravMaster.php
+ create mode 100644 admin/content/newSaravMasterFileUplaod.php
+ create mode 100644 admin/content/newSaravMasterFileUplaod1.php
+ create mode 100644 admin/content/newSaravQuestion.php
+ create mode 100644 admin/content/newVideoMaster.php
+ create mode 100644 admin/content/newYashogatha.php
+ create mode 100644 admin/content/seeBharti.php
+ create mode 100644 admin/content/seeBooks.php
+ create mode 100644 admin/content/seeChaluGhadamodi.php
+ create mode 100644 admin/content/seeEBooks.php
+ create mode 100644 admin/content/seeImportantNoteMaster.php
+ create mode 100644 admin/content/seeImportantNotesContent.php
+ create mode 100644 admin/content/seeMagilPrasnpatrika.php
+ create mode 100644 admin/content/seeSaravMaster.php
+ create mode 100644 admin/content/seeSaravQuestions.php
+ create mode 100644 admin/content/seeSaravQuestionsBySaravMaster.php
+ create mode 100644 admin/content/seeVideoMaster.php
+ create mode 100644 admin/content/seeYashogatha.php
+ create mode 100644 admin/css/animate.css
+ create mode 100644 admin/css/helper.css
+ create mode 100644 admin/css/less/advance-widget.less
+ create mode 100644 admin/css/less/amchart.less
+ create mode 100644 admin/css/less/badge.less
+ create mode 100644 admin/css/less/booking-system.less
+ create mode 100644 admin/css/less/breadcrumb.less
+ create mode 100644 admin/css/less/button.less
+ create mode 100644 admin/css/less/calendar.less
+ create mode 100644 admin/css/less/card.less
+ create mode 100644 admin/css/less/carousel.less
+ create mode 100644 admin/css/less/chart.less
+ create mode 100644 admin/css/less/chartist.less
+ create mode 100644 admin/css/less/chat.less
+ create mode 100644 admin/css/less/compose-email.less
+ create mode 100644 admin/css/less/data-table.less
+ create mode 100644 admin/css/less/datamap.less
+ create mode 100644 admin/css/less/error.less
+ create mode 100644 admin/css/less/favourite_menu.less
+ create mode 100644 admin/css/less/flot-chart.less
+ create mode 100644 admin/css/less/font.less
+ create mode 100644 admin/css/less/fonts.less
+ create mode 100644 admin/css/less/footer.less
+ create mode 100644 admin/css/less/form-validation.less
+ create mode 100644 admin/css/less/forms.less
+ create mode 100644 admin/css/less/global.less
+ create mode 100644 admin/css/less/gmap.less
+ create mode 100644 admin/css/less/header.less
+ create mode 100644 admin/css/less/invoice-edit.less
+ create mode 100644 admin/css/less/invoice.less
+ create mode 100644 admin/css/less/knob.less
+ create mode 100644 admin/css/less/login.less
+ create mode 100644 admin/css/less/menu-upload.less
+ create mode 100644 admin/css/less/mixins.less
+ create mode 100644 admin/css/less/modal.less
+ create mode 100644 admin/css/less/morris-chart.less
+ create mode 100644 admin/css/less/nestable.less
+ create mode 100644 admin/css/less/order-list.less
+ create mode 100644 admin/css/less/order-progress.less
+ create mode 100644 admin/css/less/pagination.less
+ create mode 100644 admin/css/less/panel.less
+ create mode 100644 admin/css/less/preloader.less
+ create mode 100644 admin/css/less/products_1.less
+ create mode 100644 admin/css/less/products_2.less
+ create mode 100644 admin/css/less/products_3.less
+ create mode 100644 admin/css/less/profile-widget.less
+ create mode 100644 admin/css/less/profile.less
+ create mode 100644 admin/css/less/progress-bar.less
+ create mode 100644 admin/css/less/recent-comments.less
+ create mode 100644 admin/css/less/recent-message.less
+ create mode 100644 admin/css/less/responsive.less
+ create mode 100644 admin/css/less/scrollable.less
+ create mode 100644 admin/css/less/search.less
+ create mode 100644 admin/css/less/sidebar.less
+ create mode 100644 admin/css/less/social-media-stats.less
+ create mode 100644 admin/css/less/style.less
+ create mode 100644 admin/css/less/tab.less
+ create mode 100644 admin/css/less/table-export.less
+ create mode 100644 admin/css/less/table.less
+ create mode 100644 admin/css/less/timeline.less
+ create mode 100644 admin/css/less/todo-list.less
+ create mode 100644 admin/css/less/ui-block-quote.less
+ create mode 100644 admin/css/less/ui-element-basic.less
+ create mode 100644 admin/css/less/ui-user-card.less
+ create mode 100644 admin/css/less/variable.less
+ create mode 100644 admin/css/less/vector-map.less
+ create mode 100644 admin/css/less/vertical-carousel.less
+ create mode 100644 admin/css/less/weather.less
+ create mode 100644 admin/css/less/widget-stat.less
+ create mode 100644 admin/css/lib/amchart/export.css
+ create mode 100644 admin/css/lib/barRating/barRating.css
+ create mode 100644 admin/css/lib/bootstrap/bootstrap.min.css
+ create mode 100644 admin/css/lib/c3/c3.min.css
+ create mode 100644 admin/css/lib/calendar/fullcalendar.css
+ create mode 100644 admin/css/lib/calendar2/pignose.calendar.min.css
+ create mode 100644 admin/css/lib/calendar2/semantic.ui.min.css
+ create mode 100644 admin/css/lib/chartist/chartist.min.css
+ create mode 100644 admin/css/lib/data-table/buttons.bootstrap.min.css
+ create mode 100644 admin/css/lib/data-table/buttons.dataTables.min.css
+ create mode 100644 admin/css/lib/data-table/dataTables.bootstrap.min.css
+ create mode 100644 admin/css/lib/datepicker/bootstrap-datepicker3.min.css
+ create mode 100644 admin/css/lib/dropzone/dropzone.css
+ create mode 100644 admin/css/lib/html5-editor/bootstrap-wysihtml5.css
+ create mode 100644 admin/css/lib/jsgrid/jsgrid-theme.min.css
+ create mode 100644 admin/css/lib/jsgrid/jsgrid.min.css
+ create mode 100644 admin/css/lib/line-progress/jquery.lineProgressbar.css
+ create mode 100644 admin/css/lib/lobi-panel/lobipanel.min.css
+ create mode 100644 admin/css/lib/menubar/sidebar.css
+ create mode 100644 admin/css/lib/metismenu/menu.css
+ create mode 100644 admin/css/lib/nestable/nestable.css
+ create mode 100644 admin/css/lib/owl.carousel.min.css
+ create mode 100644 admin/css/lib/owl.theme.default.min.css
+ create mode 100644 admin/css/lib/preloader/pace.css
+ create mode 100644 admin/css/lib/rangSlider/ion.rangeSlider.css
+ create mode 100644 admin/css/lib/rangSlider/ion.rangeSlider.skinFlat.css
+ create mode 100644 admin/css/lib/rangSlider/ion.rangeSlider.skinHTML5.css
+ create mode 100644 admin/css/lib/rangSlider/ion.rangeSlider.skinModern.css
+ create mode 100644 admin/css/lib/rangSlider/ion.rangeSlider.skinNice.css
+ create mode 100644 admin/css/lib/rangSlider/ion.rangeSlider.skinSimple.css
+ create mode 100644 admin/css/lib/rangSlider/normalize.css
+ create mode 100644 admin/css/lib/rickshaw-chart/rickshaw.min.css
+ create mode 100644 admin/css/lib/scrollable/scrollable.min.css
+ create mode 100644 admin/css/lib/select2/select2.min.css
+ create mode 100644 admin/css/lib/sweetalert/sweetalert.css
+ create mode 100644 admin/css/lib/toastr/toastr.min.css
+ create mode 100644 admin/css/lib/vector-map/jqvmap.min.css
+ create mode 100644 admin/css/spinners.css
+ create mode 100644 admin/css/style.css
+ create mode 100644 admin/end.php
+ create mode 100644 admin/fileUplaod/.DS_Store
+ create mode 100644 admin/fileUplaod/add.php
+ create mode 100644 admin/fileUplaod/index.php
+ create mode 100644 admin/fileUplaod/jquery.form.min.js
+ create mode 100644 admin/fileUplaod/style.css
+ create mode 100644 admin/fileUplaod/uplaod_import.php
+ create mode 100644 admin/fileUplaod/uploadFile.php
+ create mode 100644 admin/fileUplaod/uploadFile_image.php
+ create mode 100644 admin/fileUplaod/uploadImportFile.php
+ create mode 100644 admin/fileUplaod/uploadimage.php
+ create mode 100644 admin/footer.php
+ create mode 100644 admin/head.php
+ create mode 100644 admin/headermenu.php
+ create mode 100644 admin/headermenu2.php
+ create mode 100644 admin/icons/flag-icon-css/flag-icon.min.css
+ create mode 100644 admin/icons/flag-icon-css/flags/ad.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ae.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/af.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ag.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ai.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/al.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/am.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ao.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/aq.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ar.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/as.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/at.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/au.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/aw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ax.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/az.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ba.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bb.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bd.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/be.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bh.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bi.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bj.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bl.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bo.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bq.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/br.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bs.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bt.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bv.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/by.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/bz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ca.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cc.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cd.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ch.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ci.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ck.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cl.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/co.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cu.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cv.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cx.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cy.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/cz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/de.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/dj.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/dk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/dm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/do.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/dz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ec.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ee.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/eg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/eh.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/er.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/es.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/et.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/fi.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/fj.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/fk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/fm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/fo.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/fr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ga.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gb.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gd.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ge.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gh.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gi.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gl.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gp.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gq.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gs.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gt.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gu.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/gy.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/hk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/hm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/hn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/hr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ht.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/hu.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/id.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ie.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/il.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/im.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/in.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/io.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/iq.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ir.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/is.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/it.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/je.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/jm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/jo.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/jp.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ke.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/kg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/kh.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ki.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/km.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/kn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/kp.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/kr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/kw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ky.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/kz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/la.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/lb.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/lc.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/li.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/lk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/lr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ls.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/lt.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/lu.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/lv.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ly.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ma.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mc.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/md.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/me.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mh.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ml.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mo.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mp.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mq.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ms.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mt.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mu.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mv.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mx.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/my.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/mz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/na.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/nc.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ne.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/nf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ng.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ni.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/nl.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/no.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/np.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/nr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/nu.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/nz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/om.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pa.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pe.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ph.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pl.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ps.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pt.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/pw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/py.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/qa.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/re.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ro.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/rs.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ru.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/rw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sa.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sb.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sc.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sd.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/se.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sh.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/si.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sj.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sl.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/so.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ss.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/st.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sv.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sx.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sy.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/sz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tc.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/td.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/th.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tj.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tk.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tl.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/to.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tr.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tt.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tv.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tw.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/tz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ua.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ug.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/um.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/us.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/uy.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/uz.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/va.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/vc.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ve.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/vg.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/vi.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/vn.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/vu.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/wf.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ws.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/ye.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/yt.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/za.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/zm.svg
+ create mode 100644 admin/icons/flag-icon-css/flags/zw.svg
+ create mode 100644 admin/icons/font-awesome/css/font-awesome.min.css
+ create mode 100644 admin/icons/font-awesome/fonts/fontawesome-webfont3e6e.eot
+ create mode 100644 admin/icons/font-awesome/fonts/fontawesome-webfont3e6e.svg
+ create mode 100644 admin/icons/font-awesome/fonts/fontawesome-webfont3e6e.ttf
+ create mode 100644 admin/icons/font-awesome/fonts/fontawesome-webfont3e6e.woff
+ create mode 100644 admin/icons/font-awesome/fonts/fontawesome-webfont3e6e.woff2
+ create mode 100644 admin/icons/font-awesome/fonts/fontawesome-webfontd41d.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-arrows-10.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-arrows-10.svg
+ create mode 100644 admin/icons/linea-icons/fonts/linea-arrows-10.ttf
+ create mode 100644 admin/icons/linea-icons/fonts/linea-arrows-10.woff
+ create mode 100644 admin/icons/linea-icons/fonts/linea-arrows-10d41d.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-10.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-10.svg
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-10.ttf
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-10.woff
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-10d41d.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-elaboration-10.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-elaboration-10.svg
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-elaboration-10.ttf
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-elaboration-10.woff
+ create mode 100644 admin/icons/linea-icons/fonts/linea-basic-elaboration-10d41d.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-ecommerce-10.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-ecommerce-10.svg
+ create mode 100644 admin/icons/linea-icons/fonts/linea-ecommerce-10.ttf
+ create mode 100644 admin/icons/linea-icons/fonts/linea-ecommerce-10.woff
+ create mode 100644 admin/icons/linea-icons/fonts/linea-ecommerce-10d41d.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-music-10.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-music-10.svg
+ create mode 100644 admin/icons/linea-icons/fonts/linea-music-10.ttf
+ create mode 100644 admin/icons/linea-icons/fonts/linea-music-10.woff
+ create mode 100644 admin/icons/linea-icons/fonts/linea-music-10d41d.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-software-10.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-software-10.svg
+ create mode 100644 admin/icons/linea-icons/fonts/linea-software-10.ttf
+ create mode 100644 admin/icons/linea-icons/fonts/linea-software-10.woff
+ create mode 100644 admin/icons/linea-icons/fonts/linea-software-10d41d.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-weather-10.eot
+ create mode 100644 admin/icons/linea-icons/fonts/linea-weather-10.svg
+ create mode 100644 admin/icons/linea-icons/fonts/linea-weather-10.ttf
+ create mode 100644 admin/icons/linea-icons/fonts/linea-weather-10.woff
+ create mode 100644 admin/icons/linea-icons/fonts/linea-weather-10d41d.eot
+ create mode 100644 admin/icons/linea-icons/linea.css
+ create mode 100644 admin/icons/material-design-iconic-font/css/materialdesignicons.min.css
+ create mode 100644 admin/icons/material-design-iconic-font/fonts/materialdesignicons-webfontd41d.eot
+ create mode 100644 admin/icons/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.eot
+ create mode 100644 admin/icons/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg
+ create mode 100644 admin/icons/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.ttf
+ create mode 100644 admin/icons/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.woff
+ create mode 100644 admin/icons/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.woff2
+ create mode 100644 admin/icons/simple-line-icons/css/simple-line-icons.css
+ create mode 100644 admin/icons/simple-line-icons/fonts/Simple-Line-Icons4c82.eot
+ create mode 100644 admin/icons/simple-line-icons/fonts/Simple-Line-Icons4c82.svg
+ create mode 100644 admin/icons/simple-line-icons/fonts/Simple-Line-Icons4c82.ttf
+ create mode 100644 admin/icons/simple-line-icons/fonts/Simple-Line-Icons4c82.woff
+ create mode 100644 admin/icons/simple-line-icons/fonts/Simple-Line-Icons4c82.woff2
+ create mode 100644 admin/icons/simple-line-icons/fonts/Simple-Line-Iconsd41d.eot
+ create mode 100644 admin/icons/themify-icons/fonts/themify.ttf
+ create mode 100644 admin/icons/themify-icons/fonts/themify.woff
+ create mode 100644 admin/icons/themify-icons/fonts/themify9f24.eot
+ create mode 100644 admin/icons/themify-icons/fonts/themify9f24.svg
+ create mode 100644 admin/icons/themify-icons/fonts/themifyd41d.eot
+ create mode 100644 admin/icons/themify-icons/themify-icons.css
+ create mode 100644 admin/icons/weather-icons/css/weather-icons.min.css
+ create mode 100644 admin/icons/weather-icons/fonts/weathericons-regular-webfont.eot
+ create mode 100644 admin/icons/weather-icons/fonts/weathericons-regular-webfont.svg
+ create mode 100644 admin/icons/weather-icons/fonts/weathericons-regular-webfont.ttf
+ create mode 100644 admin/icons/weather-icons/fonts/weathericons-regular-webfont.woff
+ create mode 100644 admin/icons/weather-icons/fonts/weathericons-regular-webfont.woff2
+ create mode 100644 admin/images/close.png
+ create mode 100644 admin/images/custom-select.png
+ create mode 100644 admin/images/favicon.png
+ create mode 100644 admin/images/logo-text.png
+ create mode 100644 admin/images/logo.png
+ create mode 100644 admin/images/maximize.png
+ create mode 100644 admin/images/minimize.png
+ create mode 100644 admin/images/picture.png
+ create mode 100644 admin/images/smile.png
+ create mode 100644 admin/images/video-cam.png
+ create mode 100644 admin/import/2.pdf
+ create mode 100644 admin/import/Anna Vaccine Certificate.pdf
+ create mode 100644 admin/import/sample.csv
+ create mode 100644 admin/import/tbl_sarav_question.csv
+ create mode 100644 admin/index.html
+ create mode 100644 admin/index.php
+ create mode 100644 admin/jquery.form.min.js
+ create mode 100644 admin/jquery.form.min_1.js
+ create mode 100644 admin/js/custom.min.js
+ create mode 100644 admin/js/jquery.slimscroll.js
+ create mode 100644 admin/js/lib/barRating/barRating.init.js
+ create mode 100644 admin/js/lib/barRating/jquery.barrating.js
+ create mode 100644 admin/js/lib/bootstrap/css/bootstrap.min.css
+ create mode 100644 admin/js/lib/bootstrap/js/bootstrap.min.js
+ create mode 100644 admin/js/lib/bootstrap/js/popper.min.js
+ create mode 100644 admin/js/lib/c3/c3-init.js
+ create mode 100644 admin/js/lib/c3/c3.min.js
+ create mode 100644 admin/js/lib/c3/d3.min.js
+ create mode 100644 admin/js/lib/calendar-2/moment.latest.min.js
+ create mode 100644 admin/js/lib/calendar-2/pignose.calendar.min.js
+ create mode 100644 admin/js/lib/calendar-2/pignose.init.js
+ create mode 100644 admin/js/lib/calendar-2/prism.min.js
+ create mode 100644 admin/js/lib/calendar-2/semantic.ui.min.js
+ create mode 100644 admin/js/lib/calendar/fullcalendar-init.js
+ create mode 100644 admin/js/lib/calendar/fullcalendar.min.js
+ create mode 100644 admin/js/lib/chart-amchart/amchart-init.js
+ create mode 100644 admin/js/lib/chart-amchart/amcharts.js
+ create mode 100644 admin/js/lib/chart-amchart/ammap.js
+ create mode 100644 admin/js/lib/chart-amchart/amstock.js
+ create mode 100644 admin/js/lib/chart-amchart/export.min.js
+ create mode 100644 admin/js/lib/chart-amchart/light.js
+ create mode 100644 admin/js/lib/chart-amchart/pie.js
+ create mode 100644 admin/js/lib/chart-amchart/serial.js
+ create mode 100644 admin/js/lib/chart-amchart/worldLow.js
+ create mode 100644 admin/js/lib/chart-js/Chart.bundle.js
+ create mode 100644 admin/js/lib/chart-js/chartjs-init.js
+ create mode 100644 admin/js/lib/chartist/chartist-init.js
+ create mode 100644 admin/js/lib/chartist/chartist-plugin-tooltip.min.js
+ create mode 100644 admin/js/lib/chartist/chartist.min.js
+ create mode 100644 admin/js/lib/chat-widget/chat-widget-init.js
+ create mode 100644 admin/js/lib/circle-progress/circle-progress-init.js
+ create mode 100644 admin/js/lib/circle-progress/circle-progress.min.js
+ create mode 100644 admin/js/lib/datamap/d3.min.js
+ create mode 100644 admin/js/lib/datamap/datamap-init.js
+ create mode 100644 admin/js/lib/datamap/datamaps.world.min.js
+ create mode 100644 admin/js/lib/datamap/topojson.js
+ create mode 100644 admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js
+ create mode 100644 admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js
+ create mode 100644 admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js
+ create mode 100644 admin/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js
+ create mode 100644 admin/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js
+ create mode 100644 admin/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js
+ create mode 100644 admin/js/lib/datatables/cdn.rawgit.com/google/code-prettify/master/loader/run_prettify2102.js
+ create mode 100644 admin/js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js
+ create mode 100644 admin/js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js
+ create mode 100644 admin/js/lib/datatables/datatables-init.js
+ create mode 100644 admin/js/lib/datatables/datatables.min.js
+ create mode 100644 admin/js/lib/datepicker/bootstrap-datepicker.min.js
+ create mode 100644 admin/js/lib/dropzone/dropzone.js
+ create mode 100644 admin/js/lib/easing/jquery.easing.min.js
+ create mode 100644 admin/js/lib/easing/stepup-form-init.js
+ create mode 100644 admin/js/lib/echart/dashboard1-init.js
+ create mode 100644 admin/js/lib/echart/echarts-init.js
+ create mode 100644 admin/js/lib/echart/echarts.js
+ create mode 100644 admin/js/lib/flot-chart/curvedLines.js
+ create mode 100644 admin/js/lib/flot-chart/excanvas.min.js
+ create mode 100644 admin/js/lib/flot-chart/flot-chart-init.js
+ create mode 100644 admin/js/lib/flot-chart/flot-tooltip/jquery.flot.tooltip.min.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.categories.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.crosshair.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.pie.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.resize.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.stack.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.threshold.js
+ create mode 100644 admin/js/lib/flot-chart/jquery.flot.time.js
+ create mode 100644 admin/js/lib/form-validation/jquery.validate-init.js
+ create mode 100644 admin/js/lib/form-validation/jquery.validate.min.js
+ create mode 100644 admin/js/lib/gmap/gmap.init.js
+ create mode 100644 admin/js/lib/gmap/gmapApi.js
+ create mode 100644 admin/js/lib/gmap/gmaps.js
+ create mode 100644 admin/js/lib/google-chart/google-charts.init.js
+ create mode 100644 admin/js/lib/google-chart/google-jsapi.js
+ create mode 100644 admin/js/lib/granim/granim-init.js
+ create mode 100644 admin/js/lib/granim/granim.min.js
+ create mode 100644 admin/js/lib/highchart/highcharts-init.js
+ create mode 100644 admin/js/lib/highchart/highcharts-modules-exporting.js
+ create mode 100644 admin/js/lib/highchart/highcharts-more.js
+ create mode 100644 admin/js/lib/highchart/highcharts.js
+ create mode 100644 admin/js/lib/html5-editor/bootstrap-wysihtml5.js
+ create mode 100644 admin/js/lib/html5-editor/wysihtml5-0.3.0.js
+ create mode 100644 admin/js/lib/html5-editor/wysihtml5-init.js
+ create mode 100644 admin/js/lib/jquery-ui/jquery-ui.min.js
+ create mode 100644 admin/js/lib/jquery-ui/jquery.ui.touch-punch.min.js
+ create mode 100644 admin/js/lib/jquery/jquery.min.js
+ create mode 100644 admin/js/lib/jsgrid/db.js
+ create mode 100644 admin/js/lib/jsgrid/fields/jsgrid.field.checkbox.js
+ create mode 100644 admin/js/lib/jsgrid/fields/jsgrid.field.control.js
+ create mode 100644 admin/js/lib/jsgrid/fields/jsgrid.field.number.js
+ create mode 100644 admin/js/lib/jsgrid/fields/jsgrid.field.select.js
+ create mode 100644 admin/js/lib/jsgrid/fields/jsgrid.field.text.js
+ create mode 100644 admin/js/lib/jsgrid/fields/jsgrid.field.textarea.js
+ create mode 100644 admin/js/lib/jsgrid/jsgrid-init.js
+ create mode 100644 admin/js/lib/jsgrid/jsgrid.core.js
+ create mode 100644 admin/js/lib/jsgrid/jsgrid.field.js
+ create mode 100644 admin/js/lib/jsgrid/jsgrid.load-indicator.js
+ create mode 100644 admin/js/lib/jsgrid/jsgrid.load-strategies.js
+ create mode 100644 admin/js/lib/jsgrid/jsgrid.sort-strategies.js
+ create mode 100644 admin/js/lib/jsgrid/jsgrid.validation.js
+ create mode 100644 admin/js/lib/justgage/justgage.init.js
+ create mode 100644 admin/js/lib/justgage/justgage.js
+ create mode 100644 admin/js/lib/justgage/raphael-min.js
+ create mode 100644 admin/js/lib/knob/jquery.knob.min.js
+ create mode 100644 admin/js/lib/knob/knob.init.js
+ create mode 100644 admin/js/lib/line-progress/jquery.lineProgressbar.js
+ create mode 100644 admin/js/lib/line-progress/line-progress-init.js
+ create mode 100644 admin/js/lib/menubar/sidebar.js
+ create mode 100644 admin/js/lib/metismenu/jquery.slimscroll.js
+ create mode 100644 admin/js/lib/metismenu/metismenu.init.js
+ create mode 100644 admin/js/lib/metismenu/metismenu.min.js
+ create mode 100644 admin/js/lib/moment/moment.js
+ create mode 100644 admin/js/lib/morris-chart/dashboard1-init.js
+ create mode 100644 admin/js/lib/morris-chart/morris-init.js
+ create mode 100644 admin/js/lib/morris-chart/morris.js
+ create mode 100644 admin/js/lib/morris-chart/raphael-min.js
+ create mode 100644 admin/js/lib/nestable/jquery.nestable.js
+ create mode 100644 admin/js/lib/nestable/nestable.init.js
+ create mode 100644 admin/js/lib/owl-carousel/owl.carousel-init.js
+ create mode 100644 admin/js/lib/owl-carousel/owl.carousel.min.js
+ create mode 100644 admin/js/lib/peitychart/jquery.peity.min.js
+ create mode 100644 admin/js/lib/peitychart/peitychart.init.js
+ create mode 100644 admin/js/lib/portlets/portlets-init.js
+ create mode 100644 admin/js/lib/portlets/portlets.js
+ create mode 100644 admin/js/lib/preloader/pace.min.js
+ create mode 100644 admin/js/lib/rangeSlider/ion.rangeSlider.min.js
+ create mode 100644 admin/js/lib/rangeSlider/moment-with-locales.js
+ create mode 100644 admin/js/lib/rangeSlider/moment.js
+ create mode 100644 admin/js/lib/rangeSlider/rangeslider.init.js
+ create mode 100644 admin/js/lib/rating1/jRate.init.js
+ create mode 100644 admin/js/lib/rating1/jRate.min.js
+ create mode 100644 admin/js/lib/rickshaw/d3.layout.min.js
+ create mode 100644 admin/js/lib/rickshaw/d3.min.js
+ create mode 100644 admin/js/lib/rickshaw/rickshaw-init.js
+ create mode 100644 admin/js/lib/rickshaw/rickshaw.min.js
+ create mode 100644 admin/js/lib/scrollable/holder.js
+ create mode 100644 admin/js/lib/scrollable/jquery-asScrollable.min.js
+ create mode 100644 admin/js/lib/scrollable/jquery-asScrollbar.js
+ create mode 100644 admin/js/lib/scrollable/scrollable.init.js
+ create mode 100644 admin/js/lib/select2/select2.full.min.js
+ create mode 100644 admin/js/lib/sparklinechart/jquery.sparkline.min.js
+ create mode 100644 admin/js/lib/sparklinechart/sparkline.init.js
+ create mode 100644 admin/js/lib/sticky-kit-master/dist/sticky-kit.min.js
+ create mode 100644 admin/js/lib/sweetalert/sweetalert.init.js
+ create mode 100644 admin/js/lib/sweetalert/sweetalert.min.js
+ create mode 100644 admin/js/lib/toastr/toastr.init.js
+ create mode 100644 admin/js/lib/toastr/toastr.min.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.algeria.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.argentina.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.brazil.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.europe.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.france.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.germany.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.greece.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.iran.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.iraq.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.russia.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.tunisia.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.turkey.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.usa.js
+ create mode 100644 admin/js/lib/vector-map/country/jquery.vmap.world.js
+ create mode 100644 admin/js/lib/vector-map/jquery.vmap.js
+ create mode 100644 admin/js/lib/vector-map/jquery.vmap.min.js
+ create mode 100644 admin/js/lib/vector-map/jquery.vmap.sampledata.js
+ create mode 100644 admin/js/lib/vector-map/vector.init.js
+ create mode 100644 admin/js/lib/weather/jquery.simpleWeather.min.js
+ create mode 100644 admin/js/lib/weather/weather-init.js
+ create mode 100644 admin/js/scripts.js
+ create mode 100644 admin/js/sidebarmenu.js
+ create mode 100644 admin/leftslidermenu.php
+ create mode 100644 admin/pagecontent.php
+ create mode 100644 admin/sql/queries.php
+ create mode 100644 admin/start.php
+ create mode 100644 admin/style.css
+ create mode 100644 admin/table-bootstrap.html
+ create mode 100644 admin/table-datatable.html
+ create mode 100644 admin/uploadFile.php
+ create mode 100644 admin/uploadfile_ajax.php
+ create mode 100644 bharti/11111.pdf
+ create mode 100644 bharti/2.pdf
+ create mode 100644 bharti/Aai Vaccine Certificate.pdf
+ create mode 100644 bharti/ITR.pdf
+ create mode 100644 bharti/download (5).jpg
+ create mode 100644 bharti/dp/112.jpg
+ create mode 100644 bharti/dp/1622808788624933-0.jpg
+ create mode 100644 bharti/dp/Installment Added not Displa.PNG
+ create mode 100644 bharti/dp/Police-Bharti-2019-Maharashtra-Date.jpg
+ create mode 100644 bharti/dp/images.png
+ create mode 100644 books/2020.pdf
+ create mode 100644 books/dp/1.jpg
+ create mode 100644 books/dp/2.jpg
+ create mode 100644 chalughadamodi/2020.pdf
+ create mode 100644 chalughadamodi/WhatsApp Image 2021-08-02 at 11.30.33 PM.pdf
+ create mode 100644 chalughadamodi/dp/22-223848_businessman-vector-person-logo-png.png
+ create mode 100644 chalughadamodi/dp/ankganit-objective-question-book-pdf.jpg
+ create mode 100644 chalughadamodi/dp/click.png
+ create mode 100644 chalughadamodi/dp/i.png
+ create mode 100644 chalughadamodi/dp/kids.jpg
+ create mode 100644 check_user.php
+ create mode 100644 ebooks/dp/1.jpg
+ create mode 100644 ebooks/dp/2.jpg
+ create mode 100644 ebooks/one.pdf
+ create mode 100644 ebooks/one11.pdf
+ create mode 100644 getBatchVideo.php
+ create mode 100644 getBhartiDetails.php
+ create mode 100644 getBooks.php
+ create mode 100644 getChaluGhadamodiMasterMenu.php
+ create mode 100644 getImportantNoteMenu.php
+ create mode 100644 getImportantNotesItems.php
+ create mode 100644 getIndivisualBhartiDetails.php
+ create mode 100644 getLiveTestPaper.php
+ create mode 100644 getLiveTestQuestionPaperAnswer.php
+ create mode 100644 getMagilPrashnPatrika.php
+ create mode 100644 getSaravMasterMenu.php
+ create mode 100644 getSaravQuestions.php
+ create mode 100644 getTestPaperResult.php
+ create mode 100644 getTestSeriesMaster.php
+ create mode 100644 getTestSeriesQuestionPaper.php
+ create mode 100644 getTestSeriesQuestionPaperAnswer.php
+ create mode 100644 getVideoBatchMaster.php
+ create mode 100644 getYashoGatha.php
+ create mode 100644 get_e_book.php
+ create mode 100644 importantnotes/1.pdf
+ create mode 100644 importantnotes/Anna Vaccine Certificate.pdf
+ create mode 100644 importantnotes/dp/2.jpg
+ create mode 100644 importantnotes/dp/22-223848_businessman-vector-person-logo-png.png
+ create mode 100644 index.php
+ create mode 100644 insert_livetest_result.php
+ create mode 100644 insert_sarav_report.php
+ create mode 100644 insert_test_series_result.php
+ create mode 100644 insert_user.php
+ create mode 100644 kharedibooks/dp/back.PNG
+ create mode 100644 kharedibooks/dp/kids.jpg
+ create mode 100644 livetest/dp/1.png
+ create mode 100644 livetest/one.pdf
+ create mode 100644 magilprashnpatrika/2.pdf
+ create mode 100644 magilprashnpatrika/WhatsApp Image 2021-08-02 at 11.30.33 PM.pdf
+ create mode 100644 magilprashnpatrika/dp/1.jpg
+ create mode 100644 magilprashnpatrika/dp/22-223848_businessman-vector-person-logo-png.png
+ create mode 100644 nbproject/private/private.properties
+ create mode 100644 nbproject/private/private.xml
+ create mode 100644 nbproject/project.properties
+ create mode 100644 nbproject/project.xml
+ create mode 100644 newEmptyPHP.php
+ create mode 100644 no-image.png
+ create mode 100644 poilcebharti.zip
+ create mode 100644 sarav_master/dp/1622808788624933-0.jpg
+ create mode 100644 sarav_master/dp/22-223848_businessman-vector-person-logo-png.png
+ create mode 100644 sarav_master/dp/Untitled-1.jpg
+ create mode 100644 sarav_master/dp/ank.jpg
+ create mode 100644 sarav_master/dp/ankganit-objective-question-book-pdf.jpg
+ create mode 100644 sarav_master/dp/kids1.jpg
+ create mode 100644 testseries/1.pdf
+ create mode 100644 testseries/dp/1.jpg
+ create mode 100644 testseries/dp/2.jpg
+ create mode 100644 testseriespaper/dp/kids.jpg
+ create mode 100644 videobatch/dp/1.jpg
+ create mode 100644 videobatch/dp/dron (10).JPG
+ create mode 100644 yashogatha/1.pdf
+ create mode 100644 yashogatha/Anna Vaccine Certificate.pdf
+ create mode 100644 yashogatha/chalan.pdf
+ create mode 100644 yashogatha/dp/2.png
+ create mode 100644 yashogatha/dp/22-223848_businessman-vector-person-logo-png.png
+ create mode 100644 yashogatha/dp/IMG_20150524_160534.jpg
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ rigin
+bash: rigin: command not found
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ rigin
+bash: rigin: command not found
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+.gitt remote add origin https://github.com/Krescendo-Sumit/PoliceBhartiKatta-API.
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git remote add origin https://github.com/Krescendo-Sumit/PoliceBhartiKatta-API
+fatal: remote origin already exists.
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git branch
+* master
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git checkout master
+Already on 'master'
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git checkout api
+error: pathspec 'api' did not match any file(s) known to git
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Krescendo-Sumit/PoliceBhartiKatta-API.git'
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git push  origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git push origin master
+fatal: unable to access 'https://github.com/Krescendo-Sumit/PoliceBhartiKatta-API.git/': Could not resolve host: github.com
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git push origin master
+Enumerating objects: 898, done.
+Counting objects: 100% (898/898), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (845/845), done.
+Writing objects: 100% (898/898), 31.45 MiB | 571.00 KiB/s, done.
+Total 898 (delta 90), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (90/90), done.
+To https://github.com/Krescendo-Sumit/PoliceBhartiKatta-API.git
+ * [new branch]      master -> master
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
+$
