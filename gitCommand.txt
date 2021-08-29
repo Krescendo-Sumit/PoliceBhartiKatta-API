@@ -1,6 +1,6 @@
 
 Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
-$ git status
+$ git status    check out 
 fatal: not a git repository (or any of the parent directories): .git
 
 Nihar@sumit MINGW64 /c/wamp/www/poilcebharti
