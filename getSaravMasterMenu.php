@@ -2,6 +2,7 @@
 error_reporting(1);
  	include "DB.php";
 	//echo 'connected';
+        $index=$_REQUEST['type'];
            mysqli_query($con,"SET NAMES utf8;");
   $sql=mysqli_query($con,"SELECT id,title,details,`status`,concat('sarav_master/dp/',imagepath)as imagepath,accountid,master_accountid,(SELECT COUNT(*) FROM tbl_sarav_question WHERE saravid=s.id)AS noofcnt FROM tbl_saravprashn_master s");
    mysqli_query($con,"SET NAMES utf8;");

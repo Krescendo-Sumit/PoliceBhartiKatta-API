@@ -3,8 +3,9 @@
 error_reporting(1);
 include "DB.php";
 $id = $_REQUEST['id'];
+$type = $_REQUEST['type'];
 mysqli_query($con, "SET NAMES utf8;");
-$sql = mysqli_query($con, "SELECT id,question,opt1,opt2,opt3,opt4,correct,hint,`status`,cdate,saravid FROM tbl_sarav_question where saravid=$id");
+$sql = mysqli_query($con, "SELECT id,question,opt1,opt2,opt3,opt4,correct,hint,`status`,cdate,saravid FROM tbl_sarav_question where saravid=$id and id>$type");
 mysqli_query($con, "SET NAMES utf8;");
 while ($row = mysqli_fetch_assoc($sql)) {
     //echo "<br>".$row['id'];

@@ -1817,4 +1817,5 @@ On branch master
 nothing to commit, working tree clean
 
 Nihar@sumit MINGW64 /c/wamp/www/poilcebharti (master)
-$
+$git status
+
