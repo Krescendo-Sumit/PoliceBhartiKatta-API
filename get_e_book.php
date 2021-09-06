@@ -3,8 +3,10 @@
 error_reporting(1);
 include "DB.php";
 //echo 'connected';
+$mobile=$_REQUEST['mobile'];
+
 mysqli_query($con, "SET NAMES utf8;");
-$sql = mysqli_query($con, "SELECT id,title,details,concat('Purchase in just Rs.',rate,'.')as rate,status,concat('ebooks/dp/',imagepath)as imagepath,accountid,master_accountid,filepath FROM tbl_e_book");
+$sql = mysqli_query($con, "SELECT id,title,details,rate,status,concat('ebooks/dp/',imagepath)as imagepath,accountid,master_accountid,filepath,writer,pages,discountprize,(SELECT COUNT(*) FROM tbl_e_book_user_log WHERE bookid=s.id AND mobile='$mobile')AS active_status FROM tbl_e_book s");
 mysqli_query($con, "SET NAMES utf8;");
 while ($row = mysqli_fetch_assoc($sql)) 
 {

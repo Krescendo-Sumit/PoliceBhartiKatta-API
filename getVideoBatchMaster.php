@@ -2,8 +2,9 @@
 error_reporting(1);
  	include "DB.php";
 	//echo 'connected';
+        $mobile=$_REQUEST['mobile'];
            mysqli_query($con,"SET NAMES utf8;");
-  $sql=mysqli_query($con,"SELECT id,title,details,`status`,concat('videobatch/dp/',imagepath)as imagepath,accountid,master_accountid,rate,(SELECT COUNT(*) FROM tbl_video_item WHERE vid=s.id)AS noofq FROM tbl_video_master s");
+  $sql=mysqli_query($con,"SELECT id,title,details,`status`,concat('videobatch/dp/',imagepath)as imagepath,accountid,master_accountid,rate,(SELECT COUNT(*) FROM tbl_video_item WHERE vid=s.id)AS noofq,(SELECT COUNT(*) FROM tbl_video_user_log WHERE batchid=s.id AND mobile='$mobile')AS active_status FROM tbl_video_master s");
    mysqli_query($con,"SET NAMES utf8;");
   while($row=mysqli_fetch_assoc($sql)) 
   {

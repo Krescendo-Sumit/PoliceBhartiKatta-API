@@ -14,7 +14,7 @@ if ($row = mysqli_fetch_assoc($sql)) {
     //echo "<br>".$row['id'];
 
     if ($row['cstatus'] == 1) {
-        echo "This coupon is alredy applied.\n Please Enter new coupon code.";
+        echo "This coupon is alredy applied. Please Enter new coupon code.";
     } else
         {
         
@@ -32,7 +32,7 @@ if ($row = mysqli_fetch_assoc($sql)) {
         {
             echo 'error to activate user';
         }
-        echo 'valid coupon';
+        echo 'Coupon Applied Sucessfully.';
     } 
 } else {
     echo 'Invalid Coupon code';
